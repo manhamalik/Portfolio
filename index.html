@@ -3,66 +3,392 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EspressoExpress App</title>
-    <link rel="icon" href="images/EspressoExpress.png" type="image/png">
+    <title>Discover Lincoln</title>
+    <link rel="icon" href="images/DLL.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <header>
-    <img src="images/EspressoExpress.png" alt="EspressoExpress Logo">
-    <div class="github-logo-container">
-        <a href="https://github.com/manhamalik/EspressoExpress" target="_blank">
-           <img src="images/ghl.png" alt="Github Logo">
-        </a>
+    <header>
+                <!-- GIF Preview -->
+                <div class="gif">
+                    <img src="images/DiscoverLincolnGIF.gif" alt="Discover Lincoln Website GIF">
+                </div>
+        
+        <div class="github-logo-container">
+            <a href="https://github.com/manhamalik/DiscoverLincoln" target="_blank" class="github-btn" aria-label="Visit Project GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+        <div class="portfolio-btn-container">
+            <a href="https://manhamalik.com/" target="_blank" class="portfolio-btn" aria-label="Visit Portfolio">
+                <i class="fa fa-briefcase"></i>
+            </a>
+        </div>
+    </header>  
+
+  <!-- Project Overview -->
+  <section class="content">
+    <div class="container">
+        <div class="description top-slide-target">
+            <h1>Discover Lincoln: A Tourism Hub</h1>
+            <p>
+                Discover Lincoln is a comprehensive tourism and events website designed to highlight the Town of Lincoln’s attractions, businesses, and events. Built with user experience at its core, the site features an interactive map with robust filtering functionality, enabling users to explore Lincoln's offerings seamlessly. The site goes beyond basic browsing by incorporating a Lincoln Guessr game, offering a gamified experience for users to discover the town's landmarks in a fun, interactive way.
+<br></br>
+                An accounts dashboard with user authentication allows users to register and log in to manage their own events, attractions, and businesses. The platform facilitates user-submitted content, which undergoes an approval process via Strapi CMS, ensuring quality control and consistency across the site. By linking businesses to events and attractions, the platform creates a dynamic and interconnected browsing experience.
+                
+                 </p>
+            <p><strong>Tools Used:</strong> Next.js, React, JavaScript, Node.js, Leaflet.js, Strapi CMS, Styled-jsx, GitHub, Visual Studio Code, Figma</p>
+        </div>
     </div>
-  </header>
-    <section class="content">
-        <div class="container">
-            <div class="description">
-                <h1>Welcome to EspressoExpress</h1>
-                <p>EspressoExpress is a dynamic cafe app designed to enhance your coffee experience. Crafted with precision for iOS devices using Xcode, EspressoExpress offers an interactive menu with a delightful assortment of muffins, coffee, and cinnamon rolls. It allows you to browse and explore the cafe's offerings, helping you decide what treats to enjoy during your visit.</p>
-            </div>
-            <div class="download">
-                <h2>Download</h2>
-                 <p class="download-instructions">Click the button below to download EspressoExpress and follow the instructions on the screen.</p>
-                <a href="https://appho.st/d/vdXAyN3M" target="_blank">Download EspressoExpress</a>
-            </div>
-            <section class="features">
-             <h2>Features</h2>
-<ol class="main-points">
-    <li><strong>Interactive Cafe Menu:</strong>
-        <ul class="subpoints">
-            <li>Explore a diverse menu featuring muffins, coffee, and cinnamon rolls.</li>
-            <li>Effortlessly browse through available items.</li>
-            <li>Discover a wide selection of cafe treats.</li>
-        </ul>
-    </li>
-    <li><strong>Swift and Objective-C Integration:</strong>
-        <ul class="subpoints">
-            <li>Leverages the power of Swift and Objective-C.</li>
-            <li>Provides a seamless and responsive iOS experience.</li>
-            <li>Ensures efficient performance and functionality.</li>
-        </ul>
-    </li>
-    <li><strong>Adaptive Layout:</strong>
-        <ul class="subpoints">
-            <li>Responsive storyboards are employed for front-end development.</li>
-            <li>Ensures EspressoExpress adapts seamlessly to different iOS device screens.</li>
-        </ul>
-    </li>
-    <li><strong>User-Friendly Design:</strong>
-        <ul class="subpoints">
-            <li>Embraces modern iOS design principles.</li>
-            <li>Offers an intuitive interface for effortless menu exploration.</li>
-            <li>Enhances your cafe experience with a visually appealing and easy-to-navigate interface.</li>
-        </ul>
-    </li>
-</ol>
-            </section>
+  </section>
+
+  <!-- Development Process & Methodologies -->
+  <section class="content top-slide-target">
+    <div class="container">
+        <div class="methodologies">
+            <h2>Development Process & Methodologies</h2>
+            <h3 class="top-slide-target">Agile & Scrum Methodologies</h3>
+            <p class="top-slide-target">
+                The development process followed Agile principles, with work organized into sprints to ensure continuous progress. Scrum practices were implemented to track milestones, conduct regular reviews, and adapt to evolving requirements, ensuring that key features like the Lincoln Guessr game, user authentication, and dashboard management were effectively prioritized and delivered.</p>
+            <h3 class="top-slide-target">Testing</h3>
+            <p class="top-slide-target">
+                Comprehensive testing strategies were applied throughout the development process. Unit testing was used to verify core functionalities, particularly for key features like content submission, filtering, and authentication. Manual testing ensured that the platform was fully mobile-responsive and provided a seamless experience across devices, including the interactive map, account dashboard, and the Lincoln Guessr game.</p>
         </div>
-        <div class="gif">
-            <img src="images/EspressoExpressGIF.gif" alt="EspressoExpress App GIF">
+    </div>
+  </section>
+
+  <!-- Figma Design Process -->
+  <section class="content">
+    <div class="container">
+        <!-- User Stories -->
+        <h2 class="top-slide-target">Figma Design Process (User Stories, Site Map, Wireframes, Prototype)</h2>
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>User Stories</h3>
+                <p>User stories were developed to prioritize key user experiences, focusing on tourists, business owners, and event planners.</p>
+            </div>
+            <div class="visual right">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/GMrUZNl0mnAaQjKK5eP2Ib/Discover-Lincoln?node-id=184-3207&embed-host=share" allowfullscreen></iframe>
+            </div>
         </div>
-    </section>
+
+        <!-- Site Map -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/GMrUZNl0mnAaQjKK5eP2Ib/Discover-Lincoln?node-id=186-3225&embed-host=share" allowfullscreen></iframe>
+            </div>
+            <div class="explanation right">
+                <h3>Site Map</h3>
+                <p>A detailed site map was created to ensure smooth navigation and a clear content structure for users. Events, attractions, and businesses were seamlessly integrated into the interactive map and linked dynamically across pages, enhancing the user’s journey through the site.                </p>
+            </div>
+        </div>
+
+        <!-- Wireframes -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>Wireframes</h3>
+                <p>Low-fidelity wireframes were created to outline the structure and layout of all key pages, including the landing page, events page, attractions page, businesses page, and Lincoln Guessr. Special emphasis was placed on ensuring the site’s responsive design, allowing the interactive map, Lincoln Guessr, and dashboard features to function smoothly across both mobile and desktop devices.</p>
+            </div>
+            <div class="visual right">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/GMrUZNl0mnAaQjKK5eP2Ib/Discover-Lincoln?node-id=116-3190&embed-host=share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Prototype (Desktop & Mobile) -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="400" src="https://embed.figma.com/design/GMrUZNl0mnAaQjKK5eP2Ib/Discover-Lincoln?node-id=116-3192&embed-host=share" allowfullscreen></iframe>
+            </div>
+            <div class="explanation right">
+                <h3>Prototype (Desktop & Mobile)</h3>
+                <p>High-fidelity prototypes were developed for both desktop and mobile views, ensuring full responsiveness. These prototypes covered all key pages and features, including the landing page, interactive map, events, attractions, and businesses pages, details pages, dashboard management, and Lincoln Guessr game, as well as the content submission workflows. This ensured a cohesive user experience regardless of the device used, with special attention given to the details of how users would navigate between content-rich pages and interactive features.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Feature Demonstrations (Video Clips) -->
+  <section class="content">
+    <div class="container">
+        <h2 class="top-slide-target">Feature Demonstrations</h2>
+        <!-- Landing Page -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>Landing Page</h3>
+                <p>The landing page introduces Discover Lincoln with a clean navigation bar offering quick access to Maps, Events, Attractions, Businesses, and more. The hero section showcases the mission, inviting users to explore Lincoln. Smooth scrolling takes users through featured sections (events, attractions, businesses), each with a carousel of cards containing key details like dates, locations, and descriptions. The Lincoln Guessr section features a leaderboard and play button. The footer includes contact details and social media links.
+
+                </p>
+            </div>
+            <div class="visual right">
+                <video src="videos/LandingPage.mp4" controls width="100%"></video>
+            </div>
+        </div>
+
+        <!-- Map Page -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <video src="videos/MapPage.mp4" controls width="100%"></video>
+            </div>
+            <div class="explanation right">
+                <h3>Map Page</h3>
+                <p>The interactive map of Lincoln, Ontario allows users to explore businesses, attractions, and events. Categories can be filtered, and the search bar provides quick access to specific locations. Clicking an icon opens a pop-up with essential details like date, time, and location, leading to a full details page for further information.
+                </p>
+            </div>
+        </div>
+
+        <!-- Events Page + Show Search + 1 Slug -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>Events Page + Event Details Page</h3>
+                <p>The Events page offers a comprehensive list of upcoming events. Users can filter by type, date, or sort alphabetically. Event cards display images, titles, and locations, with a “Learn More” button leading to detailed event pages that include a photo carousel, event description, organizer details, and accessibility information. A share button allows easy event promotion.
+                </p>
+            </div>
+            <div class="visual right">
+                <video src="videos/EventsPage.mp4" controls width="100%"></video>
+            </div>
+        </div>
+
+        <!-- Attractions Page + 1 Slug -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <video src="videos/AttractionsPage.mp4" controls width="100%"></video>
+            </div>
+            <div class="explanation right">
+                <h3>Attractions Page + Attraction Details Page</h3>
+                <p>The Attractions page highlights Lincoln’s main attractions. Users can filter by type or search for specific locations. Attraction cards feature images, titles, and hours, leading to details pages with photo carousels, descriptions, contact info, and accessibility features like parking and wheelchair access.
+                </p>
+            </div>
+        </div>
+
+        <!-- Businesses Page + 1 Slug -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>Businesses Page + Business Details Page</h3>
+                <p>The Businesses page lists local businesses with cards featuring images, titles, locations, and hours. Users can search and filter businesses by type or alphabetically. Clicking on a card opens the business details page, which includes photos, descriptions, contact info, and accessibility details like vegetarian options. A share button facilitates easy sharing.
+                </p>
+            </div>
+            <div class="visual right">
+                <video src="videos/BusinessesPage.mp4" controls width="100%"></video>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <video src="videos/AboutPage.mp4" controls width="100%"></video>
+            </div>
+            <div class="explanation right">
+                <h3>About Page</h3>
+                <p>The About page provides an overview of Lincoln’s history and identity, using scenic backgrounds and cards to showcase the town’s cultural and natural assets. The page concludes with an “Explore Lincoln” button that brings users back to the landing page.
+                </p>
+            </div>
+        </div>
+
+        <!-- Lincoln Guessr -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>LincolnGuessr Game Page</h3>
+                <p>Lincoln Guessr is a fun, gamified exploration tool where users guess locations within Lincoln using Google Street View. Players earn points based on the accuracy of their guesses across three rounds, with scores displayed on a leaderboard. The game includes a help section and the option to exit back to the landing page at any time.
+                </p>
+            </div>
+            <div class="visual right">
+                <video src="videos/LincolnGuessrPage.mp4" controls width="100%"></video>
+            </div>
+        </div>
+
+        <!-- Account - Register + Login -->
+        <div class="explanation-visuals">
+            <div class="visual left">
+                <video src="videos/RegisterLoginPage.mp4" controls width="100%"></video>
+            </div>
+            <div class="explanation right">
+                <h3>Account Registration + Login Pages</h3>
+                <p>The registration and login pages offer a secure, user-friendly experience, with a scenic Lincoln GIF background. New users register with email, username, and password, and upon logging in, access their dashboard to manage events, attractions, and businesses.
+                </p>
+            </div>
+        </div>
+
+        <!-- Dashboard + Create -->
+        <div class="explanation-visuals">
+            <div class="explanation left">
+                <h3>Account Dashboard + Create Pages</h3>
+                <p>The dashboard allows users to create, edit, and delete posts for events, attractions, and businesses. Users fill out a form with key details, upload photos, and submit posts, which appear in the dashboard as “Pending” until approved by an admin through Strapi. Once approved, posts become visible on the respective pages, and users can edit or delete them as needed.
+                </p>
+            </div>
+            <div class="visual right">
+                <video src="videos/CreateEditDeletePostPage.mp4" controls width="100%"></video>
+            </div>
+        </div>
+
+        <!-- Strapi Integration Breakdown -->
+    <section>
+                <h2>Strapi Integration Breakdown</h2>
+                <p class="top-slide-target">
+                    Strapi CMS served as the backbone of the content management system for Discover Lincoln, managing user-generated content for events, businesses, and attractions. It efficiently structured and scaled content, leveraging relationships between content types to ensure smooth approvals and updates.
+               </p>
+                <h3 class="top-slide-target">Content Management and Data Structures</h3>
+                <p class="top-slide-target">
+                    Strapi managed various content types, including events, businesses, attractions, and about page information. Each content type was structured with flexible data models featuring fields like titles, dates, locations, descriptions, and media, keeping content organized and easy to manage. Relationships between content types—such as linking businesses to events—enhanced navigation and created dynamic content flows.
+                </p>
+                <img class="strapi-image" src="images/ApprovedPostStrapi.png" alt="Strapi Content Management - Approved Post">              
+                
+                <h3 class="top-slide-target">Content Creation, Approval, and Relationships</h3>
+                <p class="top-slide-target">
+                    Strapi’s relational data structure allowed content types to interconnect, creating a seamless user experience. For example, an event could be linked to a specific business or attraction, enriching content discovery and encouraging users to explore Lincoln’s offerings more deeply through related content.
+                    <br></br>
+                    The approval workflow enabled admins to control what appeared on the site. Community-submitted content, such as events and businesses, was reviewed and approved through Strapi, maintaining quality and keeping the platform user-driven.                    
+                </p>
+                <h3 class="top-slide-target">Customization and Flexibility</h3>
+                <p class="top-slide-target">
+                    Strapi's <b>Content-Type Builder</b> allowed the addition of custom fields tailored to specific project needs, such as accessibility tags for businesses and events, ensuring inclusivity. This level of customization made the platform adaptable for future requirements without heavy redevelopment.
+                </p>
+                <h3 class="top-slide-target">Media Management</h3>
+                <p class="top-slide-target">
+                    Strapi’s <b>Media Library</b> managed all images and media files for events, attractions, and businesses. This centralized system made uploading, managing, and reusing visuals across the site simple, ensuring consistent presentation. Each image was linked to its relevant content type, such as About Page Info or Attractions, streamlining content management.
+                </p>
+                <img class="strapi-image" src="images/AboutPageStrapi.png" alt="Strapi Media Management - About Page Info">
+      </section>
+
+<!-- Code Highlights -->
+<section class="code-highlight-section">
+    <h2>Code Highlights</h2>
+    <div class="explanation-code-container">
+        <div class="explanation left">
+            <h3>Custom Interactive Map with Dynamic Markers</h3>
+            <h4>Code Snippet: MapPageMap.js</h4>
+            <p><strong>Challenge:</strong> Integrate dynamic, filterable markers on a Leaflet.js map within a React application, using custom icons and ensuring smooth performance.</p> <p><strong>Solution:</strong></p> <ul> <li><strong>Custom Markers with Icons:</strong> Used <strong><em>'ReactDOMServer.renderToString'</em></strong> to convert React elements (FontAwesome icons) into HTML strings for Leaflet's <strong><em>'DivIcon'</em></strong>, allowing custom-styled map icons.</li> <li><strong>Dynamic Filtering:</strong> Employed <strong><em>'useEffect'</em></strong>&nbsp; and <strong><em>'useState'</em></strong>&nbsp; hooks to update displayed markers based on user-selected filters from the context.</li> <li><strong>Performance Optimization:</strong> Managed state efficiently to prevent unnecessary re-renders, ensuring smooth performance with many markers.</li> </ul> <p><strong>Reflection:</strong> Gained experience integrating <strong>React with Leaflet.js</strong> and optimizing state management to improve performance and responsiveness.</p>
+            </div>
+        <div class="code-block right" id="map-page-map-code-snippet">
+            <!-- The MapPageMap.js code snippet will be loaded here -->
+        </div>
+    </div>
+</section>
+    <section class="code-highlight-section">
+    <div class="explanation-code-container reverse">
+        <div class="explanation left">
+            <h3>Advanced Filtering Mechanism</h3>
+            <h4>Code Snippet: MapFilter.js</h4>
+            <p><strong>Challenge:</strong> Create an intuitive filtering system with individual category selection and a "Select All" option, updating the map accordingly.</p> <p><strong>Solution:</strong></p> <ul> <li><strong>State Synchronization:</strong> Managed selection states using <strong><em>'useState'</em></strong>&nbsp;for both individual filters and "Select All" options.</li> <li><strong>Hierarchical Logic:</strong> Implemented functions to handle individual and group selections, keeping filters synchronized across the app.</li> <li><strong>User Experience:</strong> Designed the UI for immediate feedback, enhancing usability.</li> </ul> <p><strong>Reflection:</strong> Improved skills in managing complex state logic and ensuring the UI remains <strong>user-friendly</strong> and responsive to changes.</p></div>
+        <div class="code-block right" id="map-filter-code-snippet">
+            <!-- The MapFilter.js code snippet will be loaded here -->
+        </div>
+    </div>
+</section>
+    <section class="code-highlight-section">
+    <div class="explanation-code-container">
+        <div class="explanation left">
+            <h3>Lincoln Guessr Game Map Component</h3>
+            <h4>Code Snippet: LincolnGuessrMap.js</h4>
+            <p><strong>Challenge:</strong> Develop an interactive map for the Lincoln Guessr game where users select locations, compare guesses to actual locations, and display connections.</p> <p><strong>Solution:</strong></p> <ul> <li><strong>Interactive Map Events:</strong> Utilized <strong><em>'useMapEvents'</em></strong> &nbsp;from React Leaflet to handle user clicks for map guessing.</li> <li><strong>Custom Icons and Polylines:</strong> Created custom markers and polylines to connect guessed and actual locations, enhancing visual clarity.</li> <li><strong>Conditional Rendering:</strong> Implemented conditional logic to adjust map elements based on the game state.</li> </ul> <p><strong>Reflection:</strong> Developed real-time interactive features and learned the importance of providing <strong>visual feedback</strong> to enhance the user experience.</p>
+        </div>
+        <div class="code-block right" id="lincoln-guessr-map-code-snippet">
+            <!-- The LincolnGuessrMap.js code snippet will be loaded here -->
+        </div>
+    </div>
+</section>
+
+      <!-- Conclusion -->
+      <section class="code-highlight-section">
+                <h2>Conclusion</h2>
+                <p class="top-slide-target">
+                        Discover Lincoln combines thoughtful UI design with robust front-end 
+                        and back-end functionality to create an engaging platform for showcasing 
+                        the Town of Lincoln. Using tools like Next.js, Leaflet.js, and Strapi CMS,
+                        the website provides dynamic content management, real-time updates, and 
+                        smooth user navigation. The back-end, managed through Strapi, supports 
+                        user authentication, content submission, and approval workflows, making 
+                        the platform adaptable and scalable.
+                     <br></br>
+                        Extensive testing ensured that the site is fully responsive across both 
+                        desktop and mobile. A comprehensive design process from wireframes to 
+                        high-fidelity prototypes guided the development of features like the 
+                        interactive map, content filtering, and user dashboards. The back-end 
+                        setup also facilitated secure data management and content workflows.
+                    <br></br>
+                        This project highlights skills in front-end and back-end development, 
+                        UI/UX design, content management, and testing, demonstrating the ability
+                        to build a flexible and scalable platform that can handle future updates 
+                        and content growth.
+                </p>
+      </section>
+<script>
+    // Function to escape HTML special characters
+    function escapeHTML(code) {
+        return code
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
+    // Function to load and display a code snippet
+    function loadCodeSnippet(fileName, elementId) {
+        fetch(fileName)
+        .then(response => response.text())
+        .then(data => {
+            const escapedCode = escapeHTML(data);
+            document.getElementById(elementId).innerHTML = `<pre><code class="language-js">${escapedCode}</code></pre>`;
+            Prism.highlightAll(); // Re-highlight the code after loading
+        });
+    }
+
+    // Load the JavaScript code snippets for each file
+    loadCodeSnippet('MapPageMap.js', 'map-page-map-code-snippet');
+    loadCodeSnippet('MapFilter.js', 'map-filter-code-snippet');
+    loadCodeSnippet('LincolnGuessrMap.js', 'lincoln-guessr-map-code-snippet');
+</script>
+
+  <script>
+    // animations
+    document.addEventListener("DOMContentLoaded", function() {
+  const leftExplanations = document.querySelectorAll(".explanation.left");
+  const rightExplanations = document.querySelectorAll(".explanation.right");
+  const topSlideTargets = document.querySelectorAll(".top-slide-target");
+
+  const observerOptions = {
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        if (entry.target.classList.contains("left")) {
+          entry.target.classList.add("slide-in-left");
+        } else if (entry.target.classList.contains("right")) {
+          entry.target.classList.add("slide-in-right");
+        } else if (entry.target.classList.contains("top-slide-target")) {
+          entry.target.classList.add("slide-in-bottom");
+        }
+        observer.unobserve(entry.target); // Stop observing once animated
+      }
+    });
+  }, observerOptions);
+
+  leftExplanations.forEach(el => observer.observe(el));
+  rightExplanations.forEach(el => observer.observe(el));
+  topSlideTargets.forEach(el => observer.observe(el));
+});
+
+  </script>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Discover Lincoln. All Rights Reserved. | Designed and developed by Manha Malik.</p>
+        <div class="social-icons">
+            <a href="https://manhamalik.com/" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="https://www.linkedin.com/in/manha-m/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/manhamalik?tab=repositories" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+            <a href="mailto:manha4512@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
