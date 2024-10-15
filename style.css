@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+Multani');
 
 :root {
-    --main-color: #1a4891;
-    --accent-color: #dfc29d;
+    --main-color: #222222;
+    --accent-color: #8AE7FF;
 }
 
 /* FFDD57 */
@@ -271,7 +271,7 @@ code {
 
 /* tooltip */
 .portfolio-btn::after {
-    content: 'Visit Portfolio';
+    content: 'Visit Portfolio Website';
     background-color: #000;
     color: #fff;
     padding: 5px;
@@ -313,7 +313,7 @@ code {
 
 /* tooltip */
 .github-btn::after {
-    content: 'Visit Project’s GitHub';
+    content: 'Visit Portfolio GitHub';
     background-color: #000;
     color: #fff;
     padding: 5px;
